@@ -25,6 +25,9 @@ namespace MailOrderPharmacy_RefillService
                      {
                          logging.AddLog4Net();
                          logging.SetMinimumLevel(LogLevel.Error);
+                         logging.SetMinimumLevel(LogLevel.Debug);
+                         logging.SetMinimumLevel(LogLevel.Information);
+                         logging.SetMinimumLevel(LogLevel.Warning);
                      });
                 
 
